@@ -21,22 +21,7 @@ pip install numpy matplotlib pillow scikit-learn tensorboardX
 If you are using a CUDA machine, install the PyTorch version that matches your CUDA driver. See the official PyTorch installation command for your platform.
 
 ## Dataset Preparation
-Download the datasets CIFAR-10, CIFAR-100, ImageNet, and iNaturalist18 to /data. The directory should look like
-````
-/data
-├── CIFAR-100-python
-├── CIFAR-10-batches-py
-├── ImageNet
-|   ├── train
-|   ├── val
-|   ├── ImageNet_LT_train.txt
-|   ├── ImageNet_LT_val.txt
-|   ├── ImageNet_LT_test.txt
-└── iNaturalist18
-    ├──train_val2018
-    ├── iNaturalist18_train.txt
-    └── iNaturalist18_val.txt
-````
+Download the datasets CIFAR-10, CIFAR-100, ImageNet, and iNaturalist18 to /data. 
 When running `train.py`, CIFAR-10 or CIFAR-100 will be downloaded automatically to `/data` if it is not already available.
 If your dataset path is different, modify the following lines in `train.py`:
 
