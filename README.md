@@ -51,4 +51,14 @@ More hyper-parameter details are shown in Appendix F in our paper.
 
 ## Acknowledgements
 This long-tailed classification code is based on the repository [GBG_v1](https://github.com/WickyLee1998/GBG_v1).
+
+## Citation
+````
+@article{wang2026rethinking,
+  title={Rethinking Loss Reweighting for Imbalance Learning as an Inverse Problem: A Neural Collapse Point of View},
+  author={Wang, Jinping and Tong, Zixin and Xie, Zhiwu and Gao, Zhiqiang},
+  journal={arXiv preprint arXiv:2605.10047},
+  year={2026}
+}
+````
  
